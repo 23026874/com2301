@@ -1,0 +1,126 @@
+   styles.css 
+/
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #e50914;
+  padding: 15px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+header h1 { color: white; }
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #e50914;
+  background: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+section {
+  padding: 70px 20px;
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);} 
+  to {opacity: 1; transform: translateY(0);} 
+}
+
+.hero {
+  background: linear-gradient(rgba(229,9,20,0.6), rgba(0,0,0,0.6)), url('my pic inert latert') no-repeat center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover { background: black; }
+
+input, textarea {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background: #e50914;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+.card1 {
+  background: #ee0606;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 10rcap;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}.card3 {
+  background: #de0303;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 10rcap;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s;}
+  
